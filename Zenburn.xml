@@ -698,7 +698,7 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="COMMENTLINE" styleID="1" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
             <WordsStyle name="NUMBER" styleID="2" fgColor="8CD0D3" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="FUNCTION WORD" styleID="3" fgColor="EFEF8F" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-			<WordsStyle name="FUNCTION WORD2" styleID="4" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="FUNCTION WORD2" styleID="4" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
             <WordsStyle name="SYMBOL" styleID="5" fgColor="E3CEAB" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="IDENTIFIER" styleID="9" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
@@ -855,7 +855,7 @@ License:             Feel free to modify this style and re-release it. This styl
         <WidgetStyle name="Edge colour" styleID="0" fgColor="4F5F5F" />
         <WidgetStyle name="Line number margin" styleID="33" fgColor="8A8A8A" bgColor="0C0C0C" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Fold" styleID="0" fgColor="707070" bgColor="101010" />
-		<WidgetStyle name="Fold active" styleID="0" fgColor="7F9F7F" />
+        <WidgetStyle name="Fold active" styleID="0" fgColor="7F9F7F" />
         <WidgetStyle name="Fold margin" styleID="0" fgColor="181818" bgColor="101010" />
         <WidgetStyle name="White space symbol" styleID="0" fgColor="5F5F5F" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="358A35" />
