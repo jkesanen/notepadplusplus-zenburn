@@ -43,6 +43,19 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="COMMENT LINE" styleID="10" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
             <WordsStyle name="ILLEGAL" styleID="11" fgColor="EBD6EB" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="asn1" desc="ASN.1" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="IDENTIFIERS" styleID="2" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DOUBLE QUOTED STRING" styleID="3" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMERIC OID DEFINITION" styleID="4" fgColor="8CD0D3" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="NON OID NUMBERS" styleID="5" fgColor="8CD0D3" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="KEYWORDS" styleID="6" fgColor="CEDF99" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="ATTRIBUTES" styleID="7" fgColor="E3CEAB" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="DESCRIPTORS" styleID="8" fgColor="E3CEAB" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="TYPES" styleID="9" fgColor="93E0E3" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" keywordClass="type2" />
+            <WordsStyle name="OPERATORS" styleID="10" fgColor="9F9D6D" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" />
+        </LexerType>
         <LexerType name="asp" desc="asp" ext="asp">
             <WordsStyle name="DEFAULT" styleID="81" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENTLINE" styleID="82" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
