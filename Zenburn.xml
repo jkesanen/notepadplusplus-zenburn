@@ -1094,6 +1094,31 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="STD TYPE" styleID="13" fgColor="CEDF99" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
             <WordsStyle name="USER DEFINE" styleID="14" fgColor="FFEBDD" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
         </LexerType>
+        <LexerType name="visualprolog" desc="Visual Prolog" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="MAJOR" styleID="1" fgColor="EFEF8F" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="MINOR" styleID="2" fgColor="DFAF8F" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="DIRECTIVE" styleID="3" fgColor="FFCFAF" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" keywordClass="type1" />
+            <WordsStyle name="COMMENT BLOCK" styleID="4" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="5" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="COMMENT KEY" styleID="6" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" keywordClass="type2" />
+            <WordsStyle name="COMMENT KEY ERROR" styleID="7" fgColor="7F9F7F" bgColor="2F2F2F" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="8" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VARIABLE" styleID="9" fgColor="E3CEAB" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ANONYMOUS" styleID="10" fgColor="93E0E3" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="11" fgColor="8CD0D3" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="12" fgColor="9F9D6D" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="13" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER TOO MANY" styleID="14" fgColor="CC9393" bgColor="2F2F2F" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="CHARACTER ESCAPE ERROR" styleID="15" fgColor="CC9393" bgColor="2F2F2F" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="STRING" styleID="16" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING ESCAPE" styleID="17" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="STRING ESCAPE ERROR" styleID="18" fgColor="CC9393" bgColor="2F2F2F" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="STRING EOL OPEN" styleID="19" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING VERBATIM" styleID="20" fgColor="EFEFEF" bgColor="3F3F3F" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="STRING VERBATIM SPECIAL" styleID="21" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="STRING VERBATIM EOL" styleID="22" fgColor="CC9393" bgColor="2F2F2F" fontName="" fontStyle="2" fontSize="" />
+        </LexerType>
         <LexerType name="xml" desc="XML" ext="">
             <WordsStyle name="XMLSTART" styleID="12" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="XMLEND" styleID="13" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
