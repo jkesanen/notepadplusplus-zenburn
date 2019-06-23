@@ -883,6 +883,37 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="rebol" desc="REBOL" ext="">
+            <WordsStyle name="DEFAULT" styleID="32" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ANY OTHER TEXT" styleID="0" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="LINE COMMENT" styleID="1" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="BLOCK COMMENT" styleID="2" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="PREFACE" styleID="3" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="OPERATORS" styleID="4" fgColor="9F9D6D" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="CHARACTERS" styleID="5" fgColor="DCA3A3" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING WITH QUOTES" styleID="6" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING WITH BRACES" styleID="7" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="8" fgColor="8CD0D3" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PAIR ( 800X600 )" styleID="9" fgColor="8CD0D3" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="TUPLE ( 127.0.0.1 )" styleID="10" fgColor="8CD0D3" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BINARY ( 16#{1A803F59} )" styleID="11" fgColor="8CD0D3" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="MONEY" styleID="12" fgColor="8CD0D3" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ISSUE { #123-CD-456 }" styleID="13" fgColor="EBD6EB" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAG { <TITLE HEIGHT=100> }" styleID="14" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="FILE { %/C/WINNT/SOME.DLL }" styleID="15" fgColor="DCDCCC" bgColor="333333" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="EMAIL { JOE@MAIL.DOM }" styleID="16" fgColor="DCDCCC" bgColor="333333" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="URL { FTP://THERE.DOM }" styleID="17" fgColor="DCDCCC" bgColor="333333" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DATE { 17-FEB-2004 1/3/99 }" styleID="18" fgColor="DCDCCC" bgColor="333333" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TIME { 12:30 11:22:59 01:59:59.123 }" styleID="19" fgColor="DCDCCC" bgColor="333333" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIERS" styleID="20" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORD (ALL)" styleID="21" fgColor="DFC47D" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="KEYWORD (TEST FUNCTIONS)" styleID="22" fgColor="CEDF99" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="KEYWORD (DATATYPES)" styleID="23" fgColor="E3CEAB" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" keywordClass="type1" />
+            <WordsStyle name="KEYWORD 4" styleID="24" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
+            <WordsStyle name="KEYWORD 5" styleID="25" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
+            <WordsStyle name="KEYWORD 6" styleID="26" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
+            <WordsStyle name="KEYWORD 7" styleID="27" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
+        </LexerType>
         <LexerType name="registry" desc="registry" ext="">
             <WordsStyle name="DEFAULT STYLE" styleID="32" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DEFAULT" styleID="0" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
