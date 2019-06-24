@@ -699,6 +699,26 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="IDENTIFIER" styleID="7" fgColor="FFCFAF" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DOUBLE QUOTE STRING" styleID="8" fgColor="DCA3A3" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="mmixal" desc="MMIXAL" ext="">
+            <WordsStyle name="DIVSION OF LEADING WHITESPACE IN LINE" styleID="0" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="LABEL" styleID="2" fgColor="CEDF99" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="OPCODE" styleID="3" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DIVISION BETWEEN LABEL AND OPCODE" styleID="4" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VALID OPCODE" styleID="5" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="UNKNOWN OPCODE" styleID="6" fgColor="333333" bgColor="F18C96" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DIVISION BETWEEN OPCODE AND OPERANDS" styleID="7" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DIVISION OF OPERANDS" styleID="8" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="9" fgColor="8CD0D3" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REFERENCE (TO A LABEL)" styleID="10" fgColor="CEDF99" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="CHAR" styleID="11" fgColor="DCA3A3" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="12" fgColor="C89191" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGISTER" styleID="13" fgColor="FFEBDD" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="HEXADECIMAL NUMBER" styleID="14" fgColor="8CD0D3" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="15" fgColor="9F9D6D" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="SYMBOL" styleID="16" fgColor="FFCFAF" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="COMMENT OTHERWISE" styleID="17" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="nfo" desc="Dos Style" ext="">
             <WordsStyle name="DEFAULT" styleID="32" fgColor="DCDCCC" bgColor="3F3F3F" fontSize="" fontStyle="0" />
         </LexerType>
