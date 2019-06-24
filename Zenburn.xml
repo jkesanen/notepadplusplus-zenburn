@@ -4,11 +4,11 @@ File name:           Zenburn.xml
 Style Name:          Zenburn
 Description:         Zenburn-like style for Notepad++.
                      Inspired by the original Zenburn colorscheme for Vim by Jani Nurminen.
-                     Official Vim Zenburn home page: http://slinky.imukuppi.org/zenburnpage/
-Supported languages: All the languages supported by release 6.6.6
+                     Official Vim Zenburn home page: http://kippura.org/zenburnpage/
+Supported languages: All the languages supported by release 7.7
 Created by:          Jani Kesänen (jani dot kesanen gmail com)
-Released:            18.06.2014
-License:             Feel free to modify this style and re-release it. This style is available under the terms of the GNU Free License.
+Released:            25.06.2019
+License:             GPL2
 -->
 <NotepadPlus>
     <LexerStyles>
