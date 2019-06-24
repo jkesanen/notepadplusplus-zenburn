@@ -740,6 +740,27 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="ENVIRONMENT VARIABLE" styleID="9" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
             <WordsStyle name="IDENTIFIER" styleID="10" fgColor="DFC47D" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="oscript" desc="OScript" ext="">
+            <WordsStyle name="DEFAULT TEXT STYLE" styleID="0" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SINGLE-LINE COMMENT" styleID="1" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="MULTI-LINE COMMENT" styleID="2" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="#IFDEF DOC AND #ENDIF" styleID="3" fgColor="7F9F7F" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="PREPROCESSOR DIRECTIVE" styleID="4" fgColor="FFCFAF" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="5" fgColor="8CD0D3" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING SINGLE QUOTES" styleID="6" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING DOUBLE QUOTES" styleID="7" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CONSTANT LITERAL" styleID="8" fgColor="DCA3A3" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="IDENTIFIER" styleID="9" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SERVER-GLOBAL VARIABLE (PREFIXED BY $)" styleID="10" fgColor="FDCEAE" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="LANGUAGE NATIVE KEYWORD OR RESERVED WORD" styleID="11" fgColor="DFC47D" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="OPERATOR; EITHER SYMBOLIC OR LITERAL" styleID="12" fgColor="9F9D6D" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" keywordClass="type1" />
+            <WordsStyle name="LABEL TO JUMP TO WITH THE GOTO STATEMENT" styleID="13" fgColor="C89191" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS" styleID="14" fgColor="DFC47D" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
+            <WordsStyle name="KEYWORDS" styleID="15" fgColor="FFEBDD" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
+            <WordsStyle name="STATIC BUILT-IN OBJECT" styleID="16" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="3" fontSize="" keywordClass="type4" />
+            <WordsStyle name="OBJECT PROPERTY" styleID="17" fgColor="E3CEAB" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OBJECT METHOD" styleID="18" fgColor="CEDF99" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="objc" desc="Objective-C" ext="">
             <WordsStyle name="DIRECTIVE" styleID="19" fgColor="CEDF99" bgColor="3F3F3F" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="DCDCCC" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
